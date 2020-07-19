@@ -33,8 +33,8 @@ class Solution(object):
                             print('  ', end="")
                         print(char, end="")
                         print(Style.RESET_ALL, end="")
-                        if ctrl == Fore.RED:
-                            time.sleep(1)
+                        #if ctrl == Fore.RED:
+                            #time.sleep(1)
 
                         if matrix[row][col] == 0:
                             print(Fore.BLUE + '[0]', end="")
